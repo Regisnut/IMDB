@@ -185,7 +185,7 @@ const App = () => {
           </View>
 
           <ScrollView horizontal={true}>
-            <View style={{ paddingLeft: 10 }}>
+            <View style={styles.paddingL10}>
               <Image
                 style={{
                   width: 140,
@@ -200,42 +200,27 @@ const App = () => {
               </Text>
               <Text style={styles.textgrey}> Cooper</Text>
             </View>
-            <View style={{ paddingLeft: 10 }}>
+            <View style={styles.paddingL10}>
               <Image
-                style={{
-                  width: 120,
-                  height: 160,
-                  resizeMode: "cover",
-                  marginBottom: 10
-                }}
+                style={styles.image}
                 source={require("./Assets/annehathaway.jpg")}
               />
               <Text style={styles.textwhite}> Anne Hathaway</Text>
               <Text style={styles.textgrey}> Brand</Text>
             </View>
 
-            <View style={{ paddingLeft: 10 }}>
+            <View style={styles.paddingL10}>
               <Image
-                style={{
-                  width: 120,
-                  height: 160,
-                  resizeMode: "cover",
-                  marginBottom: 10
-                }}
+                style={styles.image}
                 source={require("./Assets/jessica-chastain.jpg")}
               />
               <Text style={styles.textwhite}> Jessica Chastain</Text>
               <Text style={styles.textgrey}> Murph</Text>
             </View>
 
-            <View style={{ paddingLeft: 10 }}>
+            <View style={styles.paddingL10}>
               <Image
-                style={{
-                  width: 120,
-                  height: 160,
-                  resizeMode: "cover",
-                  marginBottom: 10
-                }}
+                style={styles.image}
                 source={require("./Assets/MichaelCaine.jpg")}
               />
               <Text style={styles.textwhite}> Michael Caine</Text>
@@ -258,6 +243,7 @@ const App = () => {
   );
 };
 
+// app style
 const styles = StyleSheet.create({
   body: {
     backgroundColor: "black"
@@ -302,7 +288,14 @@ const styles = StyleSheet.create({
     flex: 1,
     marginVertical: 5,
     marginHorizontal: 15
-  }
+  },
+  image: {
+    width: 120,
+    height: 160,
+    resizeMode: "cover",
+    marginBottom: 10
+  },
+  paddingL10: { paddingLeft: 10 }
 });
 
 export default App;
