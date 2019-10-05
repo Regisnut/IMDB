@@ -14,11 +14,11 @@ This project was inspired by imdb website **[www.imdb.com](https://www.imdb.com)
 <img
 		width="210"
 		alt="Capture 1"
-		src="https://github.com/Regisnut/IMDB/blob/master/preview/IMDB2.png">
+		src="https://github.com/Regisnut/IMDB/blob/master/preview/Imdb2.png">
 <img
 		width="210"
 		alt="Capture 2"
-		src="https://github.com/Regisnut/IMDB/blob/master/preview/IMDB3.png">
+		src="https://github.com/Regisnut/IMDB/blob/master/preview/Imdb3.png">
 
 ## Installation and usage
 
