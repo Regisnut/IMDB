@@ -7,18 +7,18 @@
 **Perfect to start**  
 No frameworks UI like Bootstrap or Material UI are used.
 
-This project was inspired by **_this IMDB website_**.
+This project was inspired by imdb website **[www.imdb.com](https://www.imdb.com)**.
 
 ## Screenshots
 
 <img
 		width="210"
 		alt="Capture 1"
-		src="https://github.com/Regisnut/IMDB/preview/IMDB2.png">
+		src="https://github.com/Regisnut/IMDB/blob/master/preview/IMDB2.png">
 <img
 		width="210"
 		alt="Capture 2"
-		src="https://github.com/Regisnut/IMDB/preview/IMDB3.png">
+		src="https://github.com/Regisnut/IMDB/blob/master/preview/IMDB3.png">
 
 ## Installation and usage
 
