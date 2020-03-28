@@ -52,6 +52,7 @@ const App: () => React$Node = () => {
         </View>
         <View style={{backgroundColor: '#222222', marginBottom: 10}}>
           <View style={styles.description}>
+            <Text style={styles.title}>Movie : </Text>
             <Text style={styles.title}>Interstellar</Text>
           </View>
           <View style={styles.description}>
