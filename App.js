@@ -1,3 +1,9 @@
+* https://github.com/facebook/react-native
+*
+* @format
+* @flow strict-local
+*/
+
 import React, { Fragment } from "react";
 import {
   ScrollView,
@@ -19,7 +25,7 @@ import {
 import { whileStatement } from "@babel/types";
 //import { homedir } from "os";
 
-const App = () => {
+const App = () => React$Node = () => {
   return (
     <ScrollView>
       <View style={styles.body}>
