@@ -1,5 +1,5 @@
 {
-  "name": "testimdb",
+  "name": "IMDBV2",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,14 +10,12 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@react-native-community/async-storage": "^1.8.1",
-    "@react-native-community/geolocation": "^2.0.2",
     "react": "16.11.0",
     "react-native": "0.62.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
-    "@babel/runtime": "^7.9.2",
+    "@babel/runtime": "^7.6.2",
     "@react-native-community/eslint-config": "^0.0.5",
     "babel-jest": "^24.9.0",
     "eslint": "^6.5.1",

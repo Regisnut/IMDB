@@ -21,8 +21,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'testimdb' do
-  # Pods for testimdb
+target 'IMDBV2' do
+  # Pods for IMDBV2
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -54,7 +54,7 @@ target 'testimdb' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'testimdbTests' do
+  target 'IMDBV2Tests' do
     inherit! :complete
     # Pods for testing
   end
@@ -71,10 +71,10 @@ target 'testimdb' do
   end
 end
 
-target 'testimdb-tvOS' do
-  # Pods for testimdb-tvOS
+target 'IMDBV2-tvOS' do
+  # Pods for IMDBV2-tvOS
 
-  target 'testimdb-tvOSTests' do
+  target 'IMDBV2-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

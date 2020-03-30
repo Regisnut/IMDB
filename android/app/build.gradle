@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.testimdb"
+        applicationId "com.imdbv2"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
