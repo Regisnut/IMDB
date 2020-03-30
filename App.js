@@ -36,8 +36,7 @@ const App: () => React$Node = () => {
             height: 60,
             backgroundColor: '#393939',
             justifyContent: 'center',
-          }}
-        >
+          }}>
           <Image
             resizeMode="contain"
             style={{
@@ -77,8 +76,7 @@ const App: () => React$Node = () => {
                 maxWidth: 280,
                 paddingLeft: 12,
                 paddingRight: 20,
-              }}
-            >
+              }}>
               <Text style={styles.textwhite}>
                 A Team of explorers travel through a wormhole in space in an
                 attempt to ensure humanity's survival.
@@ -86,15 +84,13 @@ const App: () => React$Node = () => {
 
               <TouchableOpacity
                 style={styles.bouton}
-                onPress={() => console.log('+ ADD TO WATCHLIST')}
-              >
+                onPress={() => console.log('+ ADD TO WATCHLIST')}>
                 <View>
                   <Text
                     style={{
                       color: 'white',
                       fontWeight: '600',
-                    }}
-                  >
+                    }}>
                     + ADD TO WATCHLIST
                   </Text>
                 </View>
@@ -109,8 +105,7 @@ const App: () => React$Node = () => {
 
               marginHorizontal: 30,
               marginVertical: 15,
-            }}
-          >
+            }}>
             <View style={{flex: 1, alignItems: 'center'}}>
               <Image
                 style={{
@@ -132,8 +127,7 @@ const App: () => React$Node = () => {
                 flexDirection: 'column',
                 alignContent: 'flex-start',
                 alignItems: 'center',
-              }}
-            >
+              }}>
               <Image
                 style={{
                   tintColor: 'white',
@@ -156,8 +150,7 @@ const App: () => React$Node = () => {
                   height: 20,
                   alignItems: 'center',
                   justifyContent: 'center',
-                }}
-              >
+                }}>
                 <Text style={{color: 'white'}}>74</Text>
               </View>
 
@@ -178,8 +171,7 @@ const App: () => React$Node = () => {
               flexDirection: 'row',
               justifyContent: 'space-between',
               alignContent: 'center',
-            }}
-          >
+            }}>
             <Text style={{fontSize: 20, color: 'white'}}>Top Billed Cast</Text>
             <Text style={{fontSize: 15, color: '#3e9ee8', fontWeight: 'bold'}}>
               SEE ALL

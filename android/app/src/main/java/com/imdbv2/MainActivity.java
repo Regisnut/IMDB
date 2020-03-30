@@ -1,4 +1,4 @@
-package com.testimdb;
+package com.imdbv2;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "testimdb";
+    return "IMDBV2";
   }
 }
