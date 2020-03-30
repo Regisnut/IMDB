@@ -15,7 +15,7 @@ import com.android.build.OutputFile
  *   // the name of the generated asset file containing your JS bundle
  *   bundleAssetName: "index.android.bundle",
  *
- *   *   // the entry file for bundle generation. If none specified and
+ *   // the entry file for bundle generation. If none specified and
  *   // "index.android.js" exists, it will be used. Otherwise "index.js" is
  *   // default. Can be overridden with ENTRY_FILE environment variable.
  *   entryFile: "index.android.js",
@@ -78,7 +78,6 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
-   
     enableHermes: false,  // clean and rebuild if changing
 ]
 
@@ -130,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.imdb"
+        applicationId "com.testimdb"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -184,27 +183,26 @@ android {
 
         }
     }
-
-
 }
+
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-      //noinspection GradleDynamicVersion
+    //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
-  implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
       exclude group:'com.facebook.fbjni'
     }
+
     debugImplementation("com.facebook.flipper:flipper-network-plugin:${FLIPPER_VERSION}") {
         exclude group:'com.facebook.flipper'
     }
+
     debugImplementation("com.facebook.flipper:flipper-fresco-plugin:${FLIPPER_VERSION}") {
         exclude group:'com.facebook.flipper'
     }
-
-
-
 
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermes-engine/android/";

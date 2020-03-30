@@ -20,10 +20,12 @@ def flipper_post_install(installer)
   end
 end
 
-
-target 'IMDB' do
-  # Pods for IMDB
-
+target 'testimdb' do
+  # Pods for testimdb
+  pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
+  pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
+  pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
+  pod 'RCTTypeSafety', :path => "../node_modules/react-native/Libraries/TypeSafety"
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/'
   pod 'React-CoreModules', :path => '../node_modules/react-native/React/CoreModules'
@@ -50,13 +52,14 @@ target 'IMDB' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'IMDBTests' do
+  target 'testimdbTests' do
     inherit! :complete
     # Pods for testing
   end
 
   use_native_modules!
-    # Enables Flipper.
+
+  # Enables Flipper.
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and
   # you should disable these next few lines.
@@ -66,12 +69,11 @@ target 'IMDB' do
   end
 end
 
-target 'IMDB-tvOS' do
-  # Pods for IMDB-tvOS
+target 'testimdb-tvOS' do
+  # Pods for testimdb-tvOS
 
-  target 'IMDB-tvOSTests' do
+  target 'testimdb-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
-
 end

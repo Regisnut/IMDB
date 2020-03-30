@@ -5,8 +5,6 @@
 ; Ignore "BUCK" generated dirs
 <PROJECT_ROOT>/\.buckd/
 
-
-
 ; Ignore polyfills
 node_modules/react-native/Libraries/polyfills/.*
 
@@ -36,6 +34,7 @@ module.file_ext=.js
 module.file_ext=.json
 module.file_ext=.ios.js
 
+<<<<<<< HEAD
 module.system=haste
 module.system.haste.use_name_reducers=true
 # get basename
@@ -58,6 +57,11 @@ munge_underscores=true
 
 module.name_mapper='^react-native/\(.*\)$' -> '<PROJECT_ROOT>/node_modules/react-native/\1'
 
+=======
+munge_underscores=true
+
+module.name_mapper='^react-native/\(.*\)$' -> '<PROJECT_ROOT>/node_modules/react-native/\1'
+>>>>>>> 24f689ce39719d603082a5fda6efbb71269fe03c
 module.name_mapper='^@?[./a-zA-Z0-9$_-]+\.\(bmp\|gif\|jpg\|jpeg\|png\|psd\|svg\|webp\|m4v\|mov\|mp4\|mpeg\|mpg\|webm\|aac\|aiff\|caf\|m4a\|mp3\|wav\|html\|pdf\)$' -> '<PROJECT_ROOT>/node_modules/react-native/Libraries/Image/RelativeImageStub'
 
 suppress_type=$FlowIssue
