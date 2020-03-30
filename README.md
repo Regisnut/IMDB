@@ -4,7 +4,12 @@
 
 ## Overview
 
-**Perfect to start**  
+    ````
+    "react": "16.11.0",
+    "react-native": "0.62.0"
+    ```
+
+**Perfect to start**
 No frameworks UI like Bootstrap or Material UI are used.
 
 This project was inspired by imdb website **[www.imdb.com](https://www.imdb.com)**.
@@ -30,23 +35,27 @@ This project works fine for iOS but in Android version there are serious UI prob
 
 Clone this repository :
 
-```
+````
+
 git clone https://github.com/regisnut/IMDB.git
 cd IMDB
+
 ```
 
 Install packages :
 
 ```
+
 npm install
-```
+
+````
 
 When installation is complete, run with version of your choice :
 
 ```bash
-react-native run-ios
+npx react-native run-ios
 # or
-react-native run-android
+npx react-native run-android
 ```
 
 ---
