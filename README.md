@@ -4,9 +4,12 @@
 
 ## Overview
 
-    ```"react": "16.11.0",
+######
+
+    "react": "16.11.0",
     "react-native": "0.62.0"
-     ```
+
+######
 
 **Perfect to start**
 No frameworks UI like Bootstrap or Material UI are used.
